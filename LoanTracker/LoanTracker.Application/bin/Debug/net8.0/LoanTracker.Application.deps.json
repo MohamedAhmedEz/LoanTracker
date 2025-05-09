@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "LoanTracker.Application/1.0.0": {
+        "dependencies": {
+          "LoanTracker.Domain": "1.0.0"
+        },
+        "runtime": {
+          "LoanTracker.Application.dll": {}
+        }
+      },
+      "LoanTracker.Domain/1.0.0": {
+        "runtime": {
+          "LoanTracker.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LoanTracker.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LoanTracker.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

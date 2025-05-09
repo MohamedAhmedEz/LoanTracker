@@ -1,0 +1,97 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "LoanTracker.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/LoanTracker.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LoanTracker.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LoanTracker.Domain/1.0.0": {
+      "type": "project",
+      "path": "../LoanTracker.Domain/LoanTracker.Domain.csproj",
+      "msbuildProject": "../LoanTracker.Domain/LoanTracker.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "LoanTracker.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\N\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\study\\FCAI-H\\FCAI-H projects\\Clean\\LoanTracker\\LoanTracker.Application\\LoanTracker.Application.csproj",
+      "projectName": "LoanTracker.Application",
+      "projectPath": "D:\\study\\FCAI-H\\FCAI-H projects\\Clean\\LoanTracker\\LoanTracker.Application\\LoanTracker.Application.csproj",
+      "packagesPath": "C:\\Users\\N\\.nuget\\packages\\",
+      "outputPath": "D:\\study\\FCAI-H\\FCAI-H projects\\Clean\\LoanTracker\\LoanTracker.Application\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\N\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "D:\\study\\FCAI-H\\FCAI-H projects\\Clean\\LoanTracker\\LoanTracker.Domain\\LoanTracker.Domain.csproj": {
+              "projectPath": "D:\\study\\FCAI-H\\FCAI-H projects\\Clean\\LoanTracker\\LoanTracker.Domain\\LoanTracker.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

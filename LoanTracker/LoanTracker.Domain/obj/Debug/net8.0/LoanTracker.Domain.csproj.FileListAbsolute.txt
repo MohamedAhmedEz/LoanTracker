@@ -1,0 +1,11 @@
+D:\study\FCAI-H\FCAI-H projects\Clean\LoanTracker\LoanTracker.Domain\bin\Debug\net8.0\LoanTracker.Domain.deps.json
+D:\study\FCAI-H\FCAI-H projects\Clean\LoanTracker\LoanTracker.Domain\bin\Debug\net8.0\LoanTracker.Domain.dll
+D:\study\FCAI-H\FCAI-H projects\Clean\LoanTracker\LoanTracker.Domain\bin\Debug\net8.0\LoanTracker.Domain.pdb
+D:\study\FCAI-H\FCAI-H projects\Clean\LoanTracker\LoanTracker.Domain\obj\Debug\net8.0\LoanTracker.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\study\FCAI-H\FCAI-H projects\Clean\LoanTracker\LoanTracker.Domain\obj\Debug\net8.0\LoanTracker.Domain.AssemblyInfoInputs.cache
+D:\study\FCAI-H\FCAI-H projects\Clean\LoanTracker\LoanTracker.Domain\obj\Debug\net8.0\LoanTracker.Domain.AssemblyInfo.cs
+D:\study\FCAI-H\FCAI-H projects\Clean\LoanTracker\LoanTracker.Domain\obj\Debug\net8.0\LoanTracker.Domain.csproj.CoreCompileInputs.cache
+D:\study\FCAI-H\FCAI-H projects\Clean\LoanTracker\LoanTracker.Domain\obj\Debug\net8.0\LoanTracker.Domain.dll
+D:\study\FCAI-H\FCAI-H projects\Clean\LoanTracker\LoanTracker.Domain\obj\Debug\net8.0\refint\LoanTracker.Domain.dll
+D:\study\FCAI-H\FCAI-H projects\Clean\LoanTracker\LoanTracker.Domain\obj\Debug\net8.0\LoanTracker.Domain.pdb
+D:\study\FCAI-H\FCAI-H projects\Clean\LoanTracker\LoanTracker.Domain\obj\Debug\net8.0\ref\LoanTracker.Domain.dll

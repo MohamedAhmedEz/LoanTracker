@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "7knLoWAMYgT1Oaa9ssdpn5+YZqhffx2zitZC+yMUA+U=",
+  "Source": "LoanTracker.API",
+  "BasePath": "_content/LoanTracker.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

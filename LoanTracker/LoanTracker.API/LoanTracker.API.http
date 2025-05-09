@@ -1,0 +1,6 @@
+@LoanTracker.API_HostAddress = http://localhost:5204
+
+GET {{LoanTracker.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

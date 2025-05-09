@@ -1,0 +1,15 @@
+D:\study\FCAI-H\FCAI-H projects\Clean\LoanTracker\LoanTracker.Application\bin\Debug\net8.0\LoanTracker.Application.deps.json
+D:\study\FCAI-H\FCAI-H projects\Clean\LoanTracker\LoanTracker.Application\bin\Debug\net8.0\LoanTracker.Application.dll
+D:\study\FCAI-H\FCAI-H projects\Clean\LoanTracker\LoanTracker.Application\bin\Debug\net8.0\LoanTracker.Application.pdb
+D:\study\FCAI-H\FCAI-H projects\Clean\LoanTracker\LoanTracker.Application\bin\Debug\net8.0\LoanTracker.Domain.dll
+D:\study\FCAI-H\FCAI-H projects\Clean\LoanTracker\LoanTracker.Application\bin\Debug\net8.0\LoanTracker.Domain.pdb
+D:\study\FCAI-H\FCAI-H projects\Clean\LoanTracker\LoanTracker.Application\obj\Debug\net8.0\LoanTracker.Application.csproj.AssemblyReference.cache
+D:\study\FCAI-H\FCAI-H projects\Clean\LoanTracker\LoanTracker.Application\obj\Debug\net8.0\LoanTracker.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\study\FCAI-H\FCAI-H projects\Clean\LoanTracker\LoanTracker.Application\obj\Debug\net8.0\LoanTracker.Application.AssemblyInfoInputs.cache
+D:\study\FCAI-H\FCAI-H projects\Clean\LoanTracker\LoanTracker.Application\obj\Debug\net8.0\LoanTracker.Application.AssemblyInfo.cs
+D:\study\FCAI-H\FCAI-H projects\Clean\LoanTracker\LoanTracker.Application\obj\Debug\net8.0\LoanTracker.Application.csproj.CoreCompileInputs.cache
+D:\study\FCAI-H\FCAI-H projects\Clean\LoanTracker\LoanTracker.Application\obj\Debug\net8.0\LoanTrac.C628EC2B.Up2Date
+D:\study\FCAI-H\FCAI-H projects\Clean\LoanTracker\LoanTracker.Application\obj\Debug\net8.0\LoanTracker.Application.dll
+D:\study\FCAI-H\FCAI-H projects\Clean\LoanTracker\LoanTracker.Application\obj\Debug\net8.0\refint\LoanTracker.Application.dll
+D:\study\FCAI-H\FCAI-H projects\Clean\LoanTracker\LoanTracker.Application\obj\Debug\net8.0\LoanTracker.Application.pdb
+D:\study\FCAI-H\FCAI-H projects\Clean\LoanTracker\LoanTracker.Application\obj\Debug\net8.0\ref\LoanTracker.Application.dll
