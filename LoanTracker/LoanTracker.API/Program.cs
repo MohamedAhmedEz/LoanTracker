@@ -15,6 +15,17 @@ namespace LoanTracker.API
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            builder.Services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(policy =>
+                {
+                    policy
+                        .AllowAnyOrigin() // You can restrict this to your frontend origin
+                        .AllowAnyHeader()
+                        .AllowAnyMethod();
+                });
+            });
+
             // Add services to the container.
 
             builder.Services.AddControllers();
@@ -36,6 +47,7 @@ namespace LoanTracker.API
             builder.Services.AddScoped<LoanService>();
 
             var app = builder.Build();
+            app.UseRouting();
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
@@ -50,6 +62,8 @@ namespace LoanTracker.API
 
 
             app.MapControllers();
+            app.UseCors();
+            
 
             app.UseHangfireDashboard();
             RecurringJob.AddOrUpdate<LoanService>(

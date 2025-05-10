@@ -55,6 +55,16 @@ namespace LoanTracker.Application.Service
                 await _notificationService.SendReminderAsync(loan);
             }
         }
+
+        public async Task<Loan?> GetNearestDueLoanAsync()
+        {
+            var allLoans = await _loanRepo.GetDueLoansAsync(DateTime.UtcNow.AddYears(10)); // Fetch all future loans
+            return allLoans
+                .Where(l => !l.IsPaid)
+                .OrderBy(l => l.DueDate)
+                .FirstOrDefault();
+        }
+
     }
 
 }

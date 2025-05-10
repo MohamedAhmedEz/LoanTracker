@@ -38,6 +38,16 @@ namespace LoanTracker.API.Controllers
             var loans = await _service.GetUpcomingDueLoansAsync(days);
             return Ok(loans);
         }
+
+        [HttpGet("nearest")]
+        public async Task<IActionResult> GetNearestLoan()
+        {
+            var loan = await _service.GetNearestDueLoanAsync();
+            if (loan == null)
+                return NotFound("No upcoming loans found.");
+            return Ok(loan);
+        }
+
     }
 
     public class AddLoanDto

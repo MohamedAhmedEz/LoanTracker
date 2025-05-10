@@ -1,7 +1,36 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\study\\FCAI-H\\FCAI-H projects\\Clean\\LoanTracker\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C476301A-1F7A-4CCA-ADBA-46CC4A50C8B0}|LoanTracker.API\\LoanTracker.API.csproj|d:\\study\\fcai-h\\fcai-h projects\\clean\\loantracker\\loantracker.api\\front\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C476301A-1F7A-4CCA-ADBA-46CC4A50C8B0}|LoanTracker.API\\LoanTracker.API.csproj|solutionrelative:loantracker.api\\front\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C476301A-1F7A-4CCA-ADBA-46CC4A50C8B0}|LoanTracker.API\\LoanTracker.API.csproj|d:\\study\\fcai-h\\fcai-h projects\\clean\\loantracker\\loantracker.api\\controllers\\loanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C476301A-1F7A-4CCA-ADBA-46CC4A50C8B0}|LoanTracker.API\\LoanTracker.API.csproj|solutionrelative:loantracker.api\\controllers\\loanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{434A8878-3EEA-4CC1-840E-CD8BA9829DB6}|LoanTracker.Application\\LoanTracker.Application.csproj|d:\\study\\fcai-h\\fcai-h projects\\clean\\loantracker\\loantracker.application\\service\\loanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{434A8878-3EEA-4CC1-840E-CD8BA9829DB6}|LoanTracker.Application\\LoanTracker.Application.csproj|solutionrelative:loantracker.application\\service\\loanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED3D73DA-24F3-4FC7-BD5F-B958F5BC4817}|LoanTracker.Domain\\LoanTracker.Domain.csproj|d:\\study\\fcai-h\\fcai-h projects\\clean\\loantracker\\loantracker.domain\\entity\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED3D73DA-24F3-4FC7-BD5F-B958F5BC4817}|LoanTracker.Domain\\LoanTracker.Domain.csproj|solutionrelative:loantracker.domain\\entity\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C476301A-1F7A-4CCA-ADBA-46CC4A50C8B0}|LoanTracker.API\\LoanTracker.API.csproj|d:\\study\\fcai-h\\fcai-h projects\\clean\\loantracker\\loantracker.api\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C476301A-1F7A-4CCA-ADBA-46CC4A50C8B0}|LoanTracker.API\\LoanTracker.API.csproj|solutionrelative:loantracker.api\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{434A8878-3EEA-4CC1-840E-CD8BA9829DB6}|LoanTracker.Application\\LoanTracker.Application.csproj|d:\\study\\fcai-h\\fcai-h projects\\clean\\loantracker\\loantracker.application\\service\\contactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{434A8878-3EEA-4CC1-840E-CD8BA9829DB6}|LoanTracker.Application\\LoanTracker.Application.csproj|solutionrelative:loantracker.application\\service\\contactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED3D73DA-24F3-4FC7-BD5F-B958F5BC4817}|LoanTracker.Domain\\LoanTracker.Domain.csproj|d:\\study\\fcai-h\\fcai-h projects\\clean\\loantracker\\loantracker.domain\\entity\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED3D73DA-24F3-4FC7-BD5F-B958F5BC4817}|LoanTracker.Domain\\LoanTracker.Domain.csproj|solutionrelative:loantracker.domain\\entity\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +38,98 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{6d4078d1-5951-4ed1-ac0e-0a8099c1cce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoanService.cs",
+              "DocumentMoniker": "D:\\study\\FCAI-H\\FCAI-H projects\\Clean\\LoanTracker\\LoanTracker.Application\\Service\\LoanService.cs",
+              "RelativeDocumentMoniker": "LoanTracker.Application\\Service\\LoanService.cs",
+              "ToolTip": "D:\\study\\FCAI-H\\FCAI-H projects\\Clean\\LoanTracker\\LoanTracker.Application\\Service\\LoanService.cs",
+              "RelativeToolTip": "LoanTracker.Application\\Service\\LoanService.cs",
+              "ViewState": "AQIAAAcAAADAxszMzMwQwEIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T21:36:32.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\study\\FCAI-H\\FCAI-H projects\\Clean\\LoanTracker\\LoanTracker.API\\Front\\index.html",
+              "RelativeDocumentMoniker": "LoanTracker.API\\Front\\index.html",
+              "ToolTip": "D:\\study\\FCAI-H\\FCAI-H projects\\Clean\\LoanTracker\\LoanTracker.API\\Front\\index.html",
+              "RelativeToolTip": "LoanTracker.API\\Front\\index.html",
+              "ViewState": "AQIAADMAAAAA/P///38gwEcAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-05-10T18:45:25.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ContactService.cs",
+              "DocumentMoniker": "D:\\study\\FCAI-H\\FCAI-H projects\\Clean\\LoanTracker\\LoanTracker.Application\\Service\\ContactService.cs",
+              "RelativeDocumentMoniker": "LoanTracker.Application\\Service\\ContactService.cs",
+              "ToolTip": "D:\\study\\FCAI-H\\FCAI-H projects\\Clean\\LoanTracker\\LoanTracker.Application\\Service\\ContactService.cs",
+              "RelativeToolTip": "LoanTracker.Application\\Service\\ContactService.cs",
+              "ViewState": "AQIAAAAAAAAAMzMzMzMLwBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T15:49:18.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Loan.cs",
+              "DocumentMoniker": "D:\\study\\FCAI-H\\FCAI-H projects\\Clean\\LoanTracker\\LoanTracker.Domain\\Entity\\Loan.cs",
+              "RelativeDocumentMoniker": "LoanTracker.Domain\\Entity\\Loan.cs",
+              "ToolTip": "D:\\study\\FCAI-H\\FCAI-H projects\\Clean\\LoanTracker\\LoanTracker.Domain\\Entity\\Loan.cs",
+              "RelativeToolTip": "LoanTracker.Domain\\Entity\\Loan.cs",
+              "ViewState": "AQIAAAcAAADAKzMzMzMLwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T15:48:21.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "D:\\study\\FCAI-H\\FCAI-H projects\\Clean\\LoanTracker\\LoanTracker.Domain\\Entity\\Contact.cs",
+              "RelativeDocumentMoniker": "LoanTracker.Domain\\Entity\\Contact.cs",
+              "ToolTip": "D:\\study\\FCAI-H\\FCAI-H projects\\Clean\\LoanTracker\\LoanTracker.Domain\\Entity\\Contact.cs",
+              "RelativeToolTip": "LoanTracker.Domain\\Entity\\Contact.cs",
+              "ViewState": "AQIAAAIAAACAMjMzMzMrwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T15:48:14.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "D:\\study\\FCAI-H\\FCAI-H projects\\Clean\\LoanTracker\\LoanTracker.API\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "LoanTracker.API\\Controllers\\ContactController.cs",
+              "ToolTip": "D:\\study\\FCAI-H\\FCAI-H projects\\Clean\\LoanTracker\\LoanTracker.API\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "LoanTracker.API\\Controllers\\ContactController.cs",
+              "ViewState": "AQIAAAEAAAAAZmZmZmYkwCMAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T14:03:47.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoansController.cs",
+              "DocumentMoniker": "D:\\study\\FCAI-H\\FCAI-H projects\\Clean\\LoanTracker\\LoanTracker.API\\Controllers\\LoansController.cs",
+              "RelativeDocumentMoniker": "LoanTracker.API\\Controllers\\LoansController.cs",
+              "ToolTip": "D:\\study\\FCAI-H\\FCAI-H projects\\Clean\\LoanTracker\\LoanTracker.API\\Controllers\\LoansController.cs",
+              "RelativeToolTip": "LoanTracker.API\\Controllers\\LoansController.cs",
+              "ViewState": "AQIAAAkAAAAAIDMzMzPjvywAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T14:03:25.701Z",
+              "EditorCaption": ""
             }
           ]
         },
