@@ -17,3 +17,4 @@ D:\study\FCAI-H\FCAI-H projects\Clean\LoanTracker\LoanTracker.Infrastructure\obj
 D:\study\FCAI-H\FCAI-H projects\Clean\LoanTracker\LoanTracker.Infrastructure\obj\Debug\net8.0\LoanTracker.Infrastructure.pdb
 D:\study\FCAI-H\FCAI-H projects\Clean\LoanTracker\LoanTracker.Infrastructure\obj\Debug\net8.0\LoanTracker.Infrastructure.genruntimeconfig.cache
 D:\study\FCAI-H\FCAI-H projects\Clean\LoanTracker\LoanTracker.Infrastructure\obj\Debug\net8.0\ref\LoanTracker.Infrastructure.dll
+D:\study\FCAI-H\FCAI-H projects\Clean\LoanTracker\LoanTracker.Infrastructure\obj\Debug\net8.0\LoanTracker.Infrastructure.sourcelink.json

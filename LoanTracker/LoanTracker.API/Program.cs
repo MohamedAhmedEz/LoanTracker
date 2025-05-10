@@ -1,8 +1,10 @@
-
+using Hangfire;
+using Hangfire.PostgreSql;
 using LoanTracker.Application.Interface;
 using LoanTracker.Application.Service;
 using LoanTracker.Infrastructure.DBContext;
 using LoanTracker.Infrastructure.Repository;
+using LoanTracker.Infrastructure.Sender;
 using Microsoft.EntityFrameworkCore;
 
 namespace LoanTracker.API
@@ -22,11 +24,16 @@ namespace LoanTracker.API
             builder.Services.AddDbContext<AppDbContext>(options =>
                 options.UseNpgsql(builder.Configuration.GetConnectionString("Default")));
 
-            builder.Services.AddScoped<ILoanRepository, LoanRepository>();
-            builder.Services.AddScoped<LoanService>();
-            builder.Services.AddScoped<IContactRepository, ContactRepository>();
-            builder.Services.AddScoped<ContactService>();
+            builder.Services.AddHangfire(config =>
+                config.UsePostgreSqlStorage(builder.Configuration.GetConnectionString("Default")));
+            builder.Services.AddHangfireServer();
 
+
+            builder.Services.AddScoped<ILoanRepository, LoanRepository>();
+            builder.Services.AddScoped<IContactRepository, ContactRepository>();
+            builder.Services.AddSingleton<INotificationService, ConsoleNotificationService>();
+            builder.Services.AddScoped<ContactService>();
+            builder.Services.AddScoped<LoanService>();
 
             var app = builder.Build();
 
@@ -43,6 +50,12 @@ namespace LoanTracker.API
 
 
             app.MapControllers();
+
+            app.UseHangfireDashboard();
+            RecurringJob.AddOrUpdate<LoanService>(
+                "SendLoanReminders",
+                    service => service.SendUpcomingLoanRemindersAsync(1),
+                        Cron.Minutely);
 
             app.Run();
         }

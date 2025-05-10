@@ -13,3 +13,4 @@ D:\study\FCAI-H\FCAI-H projects\Clean\LoanTracker\LoanTracker.Application\obj\De
 D:\study\FCAI-H\FCAI-H projects\Clean\LoanTracker\LoanTracker.Application\obj\Debug\net8.0\refint\LoanTracker.Application.dll
 D:\study\FCAI-H\FCAI-H projects\Clean\LoanTracker\LoanTracker.Application\obj\Debug\net8.0\LoanTracker.Application.pdb
 D:\study\FCAI-H\FCAI-H projects\Clean\LoanTracker\LoanTracker.Application\obj\Debug\net8.0\ref\LoanTracker.Application.dll
+D:\study\FCAI-H\FCAI-H projects\Clean\LoanTracker\LoanTracker.Application\obj\Debug\net8.0\LoanTracker.Application.sourcelink.json

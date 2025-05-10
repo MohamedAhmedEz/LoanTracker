@@ -11,10 +11,12 @@ namespace LoanTracker.Application.Service
     public class LoanService
     {
         private readonly ILoanRepository _loanRepo;
+        private readonly INotificationService _notificationService;
 
-        public LoanService(ILoanRepository loanRepo)
+        public LoanService(ILoanRepository loanRepo,INotificationService notificationService)
         {
             _loanRepo = loanRepo;
+            _notificationService = notificationService;
         }
 
         public async Task<Guid> AddLoanAsync(string desc, decimal amount, DateTime dueDate, Guid contactId)
@@ -44,6 +46,15 @@ namespace LoanTracker.Application.Service
 
         public Task<List<Loan>> GetUpcomingDueLoansAsync(long days) =>
             _loanRepo.GetDueLoansAsync(DateTime.UtcNow.AddDays(days));
+
+        public async Task SendUpcomingLoanRemindersAsync(long days)
+        {
+            var upcomingLoans = await _loanRepo.GetDueLoansAsync(DateTime.UtcNow.AddDays(days));
+            foreach (var loan in upcomingLoans)
+            {
+                await _notificationService.SendReminderAsync(loan);
+            }
+        }
     }
 
 }
